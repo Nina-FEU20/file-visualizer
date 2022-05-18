@@ -18,7 +18,7 @@ const Tree = () => {
   });
 
   const card = classNames('', {
-    'grid lg:grid-cols-2 2xl:grid-cols-3 gap-4 lg:mt-6 pl-0 relative -mt-4': theme === 'HORIZONTAL',
+    'grid lg:grid-cols-2 2xl:grid-cols-3 gap-4 lg:mt-6 pl-0 relative sm:-mt-4': theme === 'HORIZONTAL',
     'sm:pl-4': theme === 'VERTICAL',
   });
 
