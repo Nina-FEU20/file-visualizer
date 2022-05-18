@@ -9,6 +9,8 @@
 The mission was to build a UI to visualise a file tree that would work off an array of string paths. 
 This application is only frontend and is not connected to any database, therefore the files list is hardcoded. 
 
+The Project is built with React and Tailwind CSS.
+
 ### The Functionality
 
 Execpt for viewing the files, you can also:
@@ -30,7 +32,11 @@ To create a better structure I decided to set up two context. One to toggle the 
 
 Since folders and file has a few differences in both apperannce and functionality, I decided to split these two into two seperate components. Two decide if an item is a folder or a file, I am making the assumption that files include a period, and folders do not. 
 
-### The undone...
+
+### The Result
+View it live here https://file-visualizer.vercel.app/
+
+### The Undone
 
 What would a first draft be without a few bugs? There is always more to do! A few bugs that I am not yet to attend that I would like to share. 
 Error-handling is not fully complete. Mostly when editing files, no check to see if a name on the same level already exists is made. Also, I am not updating the path when I edit. 
