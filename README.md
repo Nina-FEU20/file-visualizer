@@ -15,7 +15,7 @@ The Project is built with React and Tailwind CSS.
 
 Execpt for viewing the files, you can also:
 - Toggle between to different ways of viewing the files
-    * To achieve this, simply press the toggle button in the middle of the page
+    * To achieve this, simply press the toggle button in the middle of the page. They are both two simple view but does what they are supposed to.
 - Open/Close folders
    * To do this, press either the folder icon or just the folder name, and its children will appear! (Only in list-view)
 - Add, edit and delete files/folders (in form of text..)
