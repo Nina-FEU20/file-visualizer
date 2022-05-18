@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Tree from './components/Tree';
+import ThemeSelector from './components/ThemeSelector';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='App flex flex-col items-center p-4 sm:px-4 py-10 bg-teal-900 min-h-screen text-teal-50'>
+      <header>
+        <h1 className='text-3xl mb-10 font-semibold text-center'>File Visualizer</h1>
+        <ThemeSelector />
       </header>
+
+      <Tree />
     </div>
   );
 }
